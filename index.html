@@ -3,7 +3,7 @@
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Full Responsive</title>
+    <title>WorkOut Full Responsive</title>
     <link rel="stylesheet" href="style.css" />
   </head>
   <body>
@@ -21,7 +21,7 @@
         <h2 class="logo">Your Logo</h2>
         <div class="toggle" onclick="toggleMenu();"></div>
       </header>
-      <video src="bg.mp4" muted loop autoplay></video>
+      <video src="files/bg.mp4" muted loop autoplay></video>
       <div class="overlay"></div>
       <div class="text">
         <h2>Be Stronger</h2>
@@ -35,18 +35,11 @@
         <a href="#">Join us</a>
       </div>
       <ul class="sci">
-        <li><a href="#"><img src="facebook.png"></a></li>
-        <li><a href="#"><img src="twitter.png"></a></li>
-        <li><a href="#"><img src="instagram.png"></a></li>
+        <li><a href="#"><img src="files/facebook.png"></a></li>
+        <li><a href="#"><img src="files/twitter.png"></a></li>
+        <li><a href="#"><img src="files/instagram.png"></a></li>
       </ul>
     </section>
-    <script>
-      function toggleMenu(){
-        var menuToggle = document.querySelector('.toggle');
-        var banner = document.querySelector('.banner');
-        menuToggle.classList.toggle('active');
-        banner.classList.toggle('active');
-      }
-    </script>
+    <script src="script.js"></script>
   </body>
 </html>
